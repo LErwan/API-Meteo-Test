@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>API METEO</title>
+</head>
+<body>
+        <h1>METEO</h1>
+    <div class="container">
+        <div class="left">
+            <form>
+                <div class="form-group">
+                  <input 
+                  type="text"
+                  placeholder="Ville"
+                  class="form-control" 
+                  id="inputcity" />
+                </div>
+                <button type="submit" class="btn btn-info btn-block">
+                    Rechercher
+                </button>
+            </form>
+        </div>
+        <div class="right">
+            <div class="box-container">
+                <div id="city" class="box"></div>
+                <div id="temp" class="box"></div>
+                <div id="humidity" class="box"></div>
+                <div id="wind" class="box"></div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!--JAVASCRIPT-->
+    <script src="js/app.js"></script>
+</body>
+</html>

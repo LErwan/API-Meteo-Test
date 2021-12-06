@@ -22,9 +22,7 @@ h1{
     margin: auto 10px;
     width: 30%;
 }
-.right{
-    border: 1px solid black;
-}
+
 input{
     width: 100%;
     padding: 12px;
@@ -61,7 +59,7 @@ button:hover{
     
 }
 .box-container{
-    width: 300px;
+    width: 320px;
     height: 300px;
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +74,7 @@ button:hover{
     align-items: center;
     font-size: 1.7rem;
     font-family: 'oswald';
-    box-shadow: 1px 1px 1px black;
+    border: 1px solid black;
 }
 
 
@@ -119,7 +117,7 @@ button:hover{
         width: 40%;
     }
     .right{
-        margin-top: 60px;
+        margin: 60px auto 0 auto;
         display: flex;
         justify-content: center;
     }
